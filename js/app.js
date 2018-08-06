@@ -56,27 +56,8 @@ class Character {
     } else if (input === 'left' && this.x >= 0) {
       this.x -= 101;
     }
-  //   return ('up' ? (this.y -= 20)
-  //   : 'right' ? (this.x -= 20)
-  //   : 'down' ? (this.y += 20)
-  //   : 'left' ? (this.x += 20)
-  // );
-    // switch(input) {
-    //   case 'left':
-    //     this.x -= 20;
-    //     break;
-    //   case 'up':
-    //     this.y -= 20;
-    //     break;
-    //   case 'right':
-    //     this.x += 20;
-    //     break;
-    //   case 'down':
-    //     this.y += 20;
-    //     break;
-    // }
-    }
   }
+}
 
           //check for collision
           //did player and enemy === xy
